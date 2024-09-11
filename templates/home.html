@@ -1,4 +1,4 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html>
   <head>
     <meta charset="UTF-8" />
@@ -74,6 +74,10 @@
         display: block;
         margin-bottom: 5px;
       }
+      .placeholder-range {
+        color: #ff5733; /* Color for the range text */
+        font-weight: bold;
+      }
     </style>
   </head>
 
@@ -89,7 +93,7 @@
             type="text"
             id="CRIM"
             name="CRIM"
-            placeholder="Per Capita Crime Rate by Town"
+            placeholder="Per Capita Crime Rate by Town (Range: <span class='placeholder-range'>0.00632 - 88.9762</span>)"
             required="required"
           />
         </div>
@@ -99,7 +103,7 @@
             type="text"
             id="ZN"
             name="ZN"
-            placeholder="Proportion of Residential Land Zoned"
+            placeholder="Proportion of Residential Land Zoned (Range: <span class='placeholder-range'>0 - 100</span>)"
             required="required"
           />
         </div>
@@ -109,7 +113,7 @@
             type="text"
             id="INDUS"
             name="INDUS"
-            placeholder="Proportion of Non-Retail Business Acres"
+            placeholder="Proportion of Non-Retail Business Acres (Range: <span class='placeholder-range'>0.46 - 27.74</span>)"
             required="required"
           />
         </div>
@@ -119,7 +123,7 @@
             type="text"
             id="CHAS"
             name="CHAS"
-            placeholder="Charles River Dummy Variable"
+            placeholder="Charles River Dummy Variable (Range: <span class='placeholder-range'>0 - 1</span>)"
             required="required"
           />
         </div>
@@ -129,7 +133,7 @@
             type="text"
             id="NOX"
             name="NOX"
-            placeholder="Nitric Oxides Concentration"
+            placeholder="Nitric Oxides Concentration (Range: <span class='placeholder-range'>0.385 - 0.871</span>)"
             required="required"
           />
         </div>
@@ -139,7 +143,7 @@
             type="text"
             id="RM"
             name="RM"
-            placeholder="Average Number of Rooms per Dwelling"
+            placeholder="Average Number of Rooms per Dwelling (Range: <span class='placeholder-range'>3.561 - 9.369</span>)"
             required="required"
           />
         </div>
@@ -149,7 +153,7 @@
             type="text"
             id="Age"
             name="Age"
-            placeholder="Proportion of Owner-Occupied Units Built Prior to 1940"
+            placeholder="Proportion of Owner-Occupied Units Built Prior to 1940 (Range: <span class='placeholder-range'>2.9 - 100</span>)"
             required="required"
           />
         </div>
@@ -159,7 +163,7 @@
             type="text"
             id="DIS"
             name="DIS"
-            placeholder="Weighted Distances to Employment Centers"
+            placeholder="Weighted Distances to Employment Centers (Range: <span class='placeholder-range'>1.1296 - 12.127</span>)"
             required="required"
           />
         </div>
@@ -169,7 +173,7 @@
             type="text"
             id="RAD"
             name="RAD"
-            placeholder="Index of Accessibility to Radial Highways"
+            placeholder="Index of Accessibility to Radial Highways (Range: <span class='placeholder-range'>1 - 24</span>)"
             required="required"
           />
         </div>
@@ -179,7 +183,7 @@
             type="text"
             id="TAX"
             name="TAX"
-            placeholder="Full-Value Property Tax Rate"
+            placeholder="Full-Value Property Tax Rate (Range: <span class='placeholder-range'>187 - 666</span>)"
             required="required"
           />
         </div>
@@ -189,7 +193,7 @@
             type="text"
             id="PTRATIO"
             name="PTRATIO"
-            placeholder="Pupil-Teacher Ratio by Town"
+            placeholder="Pupil-Teacher Ratio by Town (Range: <span class='placeholder-range'>12.6 - 22</span>)"
             required="required"
           />
         </div>
@@ -199,7 +203,7 @@
             type="text"
             id="B"
             name="B"
-            placeholder="Proportion of Black Residents"
+            placeholder="Proportion of Black Residents (Range: <span class='placeholder-range'>0.32 - 396.9</span>)"
             required="required"
           />
         </div>
@@ -209,7 +213,7 @@
             type="text"
             id="LSTAT"
             name="LSTAT"
-            placeholder="Percentage of Lower Status of the Population"
+            placeholder="Percentage of Lower Status of the Population (Range: <span class='placeholder-range'>1.98 - 37.97</span>)"
             required="required"
           />
         </div>
